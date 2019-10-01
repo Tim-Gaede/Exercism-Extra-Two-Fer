@@ -1,15 +1,11 @@
 # Using function overloading
-two_fer(name) = "One for " * name * ", one for me."
-two_fer()     = "One for you, one for me."
+two_fer(name) =  
+two_fer()     =  
 
 
-#=
-#Single function version
+#= 
+# Alternative single function solution  
 function two_fer(name)
-    if name != nothing
-        "One for " * name * ", one for me." # returned
-    else
-        "One for you, one for me." # returned
-    end
+     
 end
 =#
