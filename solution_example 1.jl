@@ -1,3 +1,1 @@
-# Using function overloading
-two_fer(name) = "One for " * name * ", one for me."
-two_fer()     = "One for you, one for me." 
+two_fer(name="you") = "One for $name, one for me.
